@@ -1,0 +1,248 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollViewActivityChoosePresets"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:keepScreenOn="true" >
+    
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ChoosePresetsManipAttendanceActivity"
+    android:orientation="vertical" >
+    
+    <Button android:id="@+id/btnReloadActivity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Reload with different Mode"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp" />
+    
+    <Button android:id="@+id/btnUpdateFetchPresets"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Update/Fetch Presets"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp" />
+    
+    <View android:id="@+id/separator1"
+        android:layout_width="fill_parent"
+    	android:layout_height="4dp"
+    	android:background="#00FFFF"
+    	android:layout_marginTop="10dp"
+	    android:layout_marginBottom="10dp" />
+
+    <CheckBox
+        android:id="@+id/chkBoxOperatingOnBehalf"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Operating on behalf of another teacher(Engagement)"
+        android:layout_marginTop="10dp"
+	    android:layout_marginBottom="10dp" />
+    
+    <Button android:id="@+id/btnChoosePreset"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose Preset"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp" />
+
+    <Spinner
+        android:id="@+id/spinnerChoosePreset"
+        android:layout_width="0dip"
+        android:layout_height="0dip"
+        android:visibility="invisible"
+        android:spinnerMode="dropdown" />
+    
+    <TextView
+        android:id="@+id/txtviewShowChosenPreset"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Chosen Preset: None"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <TextView
+        android:id="@+id/txtviewLabelAttendanceDate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Attendance Date:"
+        android:layout_marginTop="20dip"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <DatePicker
+        android:id="@+id/attendanceDatePicker"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp" />
+    
+    <TextView
+        android:id="@+id/txtviewLabelEndAttendanceDate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Attendance End Date(Inclusive):"
+        android:layout_marginTop="20dip"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <DatePicker
+        android:id="@+id/attendanceEndDatePicker"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp" />
+    
+    <View android:id="@+id/separator2"
+        android:layout_width="fill_parent"
+    	android:layout_height="2dp"
+    	android:background="@android:color/white"
+    	android:layout_marginTop="10dp"
+	    android:layout_marginBottom="10dp" />
+    
+    <CheckBox
+        android:id="@+id/chkBoxDontConsiderLectureTimes"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Dont consider Lecture Times"
+        android:layout_marginTop="10dp"
+	    android:layout_marginBottom="10dp"
+	    android:enabled="false" />
+    
+    <Button
+        android:id="@+id/btnChooseLectureStartTime"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose Lecture Start Time"
+        android:enabled="false" />
+    
+    <Spinner
+        android:id="@+id/spinnerChooseStartTime"
+		android:layout_width="0dip"
+        android:layout_height="0dip"
+        android:visibility="invisible"
+        android:spinnerMode="dropdown" />
+    
+    <TimePicker
+        android:id="@+id/lectureStartTimePicker"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    
+    <!-- <View android:layout_width="fill_parent"
+    	android:layout_height="2dp"
+    	android:background="@android:color/white"
+    	android:layout_marginTop="10dp"
+	    android:layout_marginBottom="10dp" />-->
+    
+    <Button
+        android:id="@+id/btnChooseLectureEndTime"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose Lecture End Time"
+        android:enabled="false" />
+    
+    <Spinner
+        android:id="@+id/spinnerChooseEndTime"
+		android:layout_width="0dip"
+        android:layout_height="0dip"
+        android:visibility="invisible"
+        android:spinnerMode="dropdown" />
+    
+    <TimePicker
+        android:id="@+id/lectureEndTimePicker"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginTop="10dp"
+	    android:layout_marginBottom="10dp" />
+    
+    <View android:id="@+id/separator3"
+        android:layout_width="fill_parent"
+    	android:layout_height="4dp"
+    	android:background="#00FFFF"
+    	android:layout_marginTop="10dp"
+	    android:layout_marginBottom="10dp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxIsPresentees"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Numbers entered are Presentees"
+        android:layout_marginTop="10dp"
+	    android:layout_marginBottom="10dp" />
+
+    <CheckBox
+        android:id="@+id/chkBoxAllRollNums"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Select ALL Roll Numbers" />
+
+    <EditText
+        android:id="@+id/editTextRollNumsAbsentees"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+    	android:digits="0123456789,"
+        android:hint="Enter Roll Nums(Absentees/Presentees) .."
+        android:layout_marginTop="10dp"
+	    android:layout_marginBottom="10dp" />
+    
+    <View android:id="@+id/separator4"
+        android:layout_width="fill_parent"
+    	android:layout_height="4dp"
+    	android:background="#00FFFF"
+    	android:layout_marginTop="10dp"
+	    android:layout_marginBottom="10dp" />
+    
+    <EditText
+        android:id="@+id/editTextRollNumsMedicalLeave"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+    	android:digits="0123456789,"
+        android:hint="Enter Roll Nums on Medical Leave .."
+        android:layout_marginTop="10dp"
+	    android:layout_marginBottom="10dp" />
+    
+    <Button
+        android:id="@+id/btnToGetMedicalLeaveReasons"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Medical Reasons"
+        android:layout_marginBottom="20dp" />
+    
+    <EditText
+        android:id="@+id/editTextRollNumsOtherReasons"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+    	android:digits="0123456789,"
+        android:hint="Enter absent Roll Nums(Other Reasons).."
+        android:layout_marginTop="10dp"
+	    android:layout_marginBottom="10dp" />
+    
+    <Button
+        android:id="@+id/btnToGetOtherReasons"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Other Reasons"
+        android:layout_marginBottom="20dp" />
+    
+    <View android:id="@+id/separator5"
+        android:layout_width="fill_parent"
+    	android:layout_height="4dp"
+    	android:background="#00FFFF"
+    	android:layout_marginTop="10dp"
+	    android:layout_marginBottom="10dp" />
+    
+    <Button android:id="@+id/btnReviewAndSubmitOperationString"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit Command to Server"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp" />
+
+</LinearLayout>
+</ScrollView>

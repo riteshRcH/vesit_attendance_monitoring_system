@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="standardyearname.xsl"?>
+<Rootstandardyearname>
+<standardyearname>
+<StdID>2</StdID>
+<StdYearName>SE</StdYearName>
+<numDivisions>3</numDivisions>
+<FloorNum>3</FloorNum>
+</standardyearname>
+<standardyearname>
+<StdID>3</StdID>
+<StdYearName>TE</StdYearName>
+<numDivisions>6</numDivisions>
+<FloorNum>null</FloorNum>
+</standardyearname>
+</Rootstandardyearname>

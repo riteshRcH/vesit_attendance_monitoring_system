@@ -1,0 +1,3 @@
+[ 11 07(Jul) 2014, Fri 05:24:49:808 PM ] INFO  => edu.vesit.ams.AMSServer$2:202 by ThreadName: AWT-EventQueue-0 - Client Connected Sockets were: none
+[ 11 07(Jul) 2014, Fri 05:24:49:856 PM ] INFO  => edu.vesit.ams.AMSServer$2:230 by ThreadName: AWT-EventQueue-0 - Performed Garbage Collection!
+[ 11 07(Jul) 2014, Fri 05:24:49:856 PM ] INFO  => edu.vesit.ams.AMSServer$2:231 by ThreadName: AWT-EventQueue-0 - Cya soon! :)

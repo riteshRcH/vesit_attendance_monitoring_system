@@ -1,0 +1,7 @@
+[ 18 01(Jan) 2014, Sat 05:53:45:197 AM ] INFO  => edu.vesit.DBDataHelper.DefaultersCalculator:105 by ThreadName: AWT-EventQueue-0 - DB Connection Success for Defaulters Calculation!
+[ 18 01(Jan) 2014, Sat 05:53:57:417 AM ] INFO  => edu.vesit.ams.AMSServer$1:175 by ThreadName: AWT-EventQueue-0 - Client Connected Sockets were: none
+[ 18 01(Jan) 2014, Sat 05:53:57:417 AM ] INFO  => edu.vesit.ams.AMSServer$1:186 by ThreadName: AWT-EventQueue-0 - Cya soon! :)
+[ 18 01(Jan) 2014, Sat 06:20:37:743 AM ] INFO  => edu.vesit.ams.AMSServer$1:175 by ThreadName: AWT-EventQueue-0 - Client Connected Sockets were: none
+[ 18 01(Jan) 2014, Sat 06:20:37:743 AM ] INFO  => edu.vesit.ams.AMSServer$1:186 by ThreadName: AWT-EventQueue-0 - Cya soon! :)
+[ 18 01(Jan) 2014, Sat 06:50:37:908 AM ] INFO  => edu.vesit.ams.AMSServer$1:175 by ThreadName: AWT-EventQueue-0 - Client Connected Sockets were: none
+[ 18 01(Jan) 2014, Sat 06:50:37:908 AM ] INFO  => edu.vesit.ams.AMSServer$1:186 by ThreadName: AWT-EventQueue-0 - Cya soon! :)

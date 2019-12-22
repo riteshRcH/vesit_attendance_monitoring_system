@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="lecturetypes.xsl"?>
+<Rootlecturetypes>
+<lecturetypes>
+<LectureType>Boards</LectureType>
+</lecturetypes>
+<lecturetypes>
+<LectureType>ClassLecture</LectureType>
+</lecturetypes>
+<lecturetypes>
+<LectureType>IV</LectureType>
+</lecturetypes>
+<lecturetypes>
+<LectureType>MainExam</LectureType>
+</lecturetypes>
+<lecturetypes>
+<LectureType>Practicals</LectureType>
+</lecturetypes>
+<lecturetypes>
+<LectureType>Prelims</LectureType>
+</lecturetypes>
+<lecturetypes>
+<LectureType>Tutorials</LectureType>
+</lecturetypes>
+<lecturetypes>
+<LectureType>UnitTest</LectureType>
+</lecturetypes>
+</Rootlecturetypes>

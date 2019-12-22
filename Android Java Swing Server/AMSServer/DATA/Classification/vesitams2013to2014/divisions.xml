@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="divisions.xsl"?>
+<Rootdivisions>
+<divisions>
+<StdID>2</StdID>
+<BranchID>1</BranchID>
+<DivID>7</DivID>
+<DivName>D7A</DivName>
+<numStudents>76</numStudents>
+</divisions>
+<divisions>
+<StdID>3</StdID>
+<BranchID>1</BranchID>
+<DivID>1</DivID>
+<DivName>D12A</DivName>
+<numStudents>81</numStudents>
+</divisions>
+<divisions>
+<StdID>3</StdID>
+<BranchID>1</BranchID>
+<DivID>2</DivID>
+<DivName>D12B</DivName>
+<numStudents>78</numStudents>
+</divisions>
+</Rootdivisions>

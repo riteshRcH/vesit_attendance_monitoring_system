@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="lectures.xsl"?>
+<Rootlectures>
+<lectures>
+<SubjectID>1</SubjectID>
+<LectureType>ClassLecture</LectureType>
+<SubjectName>Advanced Computer Networking</SubjectName>
+<SubjectCode>ACN</SubjectCode>
+<DurationHours>1.0</DurationHours>
+</lectures>
+<lectures>
+<SubjectID>1</SubjectID>
+<LectureType>Practicals</LectureType>
+<SubjectName>Advanced Computer Networking</SubjectName>
+<SubjectCode>ACN</SubjectCode>
+<DurationHours>2.0</DurationHours>
+</lectures>
+<lectures>
+<SubjectID>2</SubjectID>
+<LectureType>ClassLecture</LectureType>
+<SubjectName>System Programming and Compiler Construction</SubjectName>
+<SubjectCode>SPCC</SubjectCode>
+<DurationHours>1.0</DurationHours>
+</lectures>
+<lectures>
+<SubjectID>2</SubjectID>
+<LectureType>Practicals</LectureType>
+<SubjectName>System Programming and Compiler Construction</SubjectName>
+<SubjectCode>SPCC</SubjectCode>
+<DurationHours>2.0</DurationHours>
+</lectures>
+<lectures>
+<SubjectID>5</SubjectID>
+<LectureType>ClassLecture</LectureType>
+<SubjectName>Analysis Of Algorithms</SubjectName>
+<SubjectCode>AOA</SubjectCode>
+<DurationHours>1.0</DurationHours>
+</lectures>
+</Rootlectures>

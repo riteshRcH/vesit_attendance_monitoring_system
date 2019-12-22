@@ -1,0 +1,6 @@
+[ 21 03(Mar) 2014, Fri 03:28:59:026 AM ] INFO  => edu.vesit.ams.AMSServer$2:202 by ThreadName: AWT-EventQueue-0 - Client Connected Sockets were: none
+[ 21 03(Mar) 2014, Fri 03:28:59:057 AM ] INFO  => edu.vesit.ams.AMSServer$2:230 by ThreadName: AWT-EventQueue-0 - Performed Garbage Collection!
+[ 21 03(Mar) 2014, Fri 03:28:59:057 AM ] INFO  => edu.vesit.ams.AMSServer$2:231 by ThreadName: AWT-EventQueue-0 - Cya soon! :)
+[ 21 03(Mar) 2014, Fri 04:58:27:465 AM ] INFO  => edu.vesit.ams.AMSServer$2:202 by ThreadName: AWT-EventQueue-0 - Client Connected Sockets were: none
+[ 21 03(Mar) 2014, Fri 04:58:27:497 AM ] INFO  => edu.vesit.ams.AMSServer$2:230 by ThreadName: AWT-EventQueue-0 - Performed Garbage Collection!
+[ 21 03(Mar) 2014, Fri 04:58:27:497 AM ] INFO  => edu.vesit.ams.AMSServer$2:231 by ThreadName: AWT-EventQueue-0 - Cya soon! :)

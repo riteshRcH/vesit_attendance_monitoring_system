@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.vesit.ams"
+    android:versionCode="1"
+    android:versionName="1.0" android:installLocation="preferExternal">
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/vesit_logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" android:largeHeap="true" android:hardwareAccelerated="true">
+        <activity
+            android:name="edu.vesit.ams.MainActivity"
+            android:theme="@style/customTitleTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="edu.vesit.ams.LoginActivity"
+            android:noHistory="true"
+            android:theme="@style/customTitleTheme" >
+            <intent-filter>
+                <action android:name="edu.vesit.ams.LoginActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="edu.vesit.ams.ChoosePresetsManipAttendanceActivity"
+            android:label="@string/title_activity_update_absentees"
+            android:theme="@style/customTitleTheme" >
+            <intent-filter>
+                <action android:name="edu.vesit.ams.ChoosePresetsActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="edu.vesit.ams.ViewPresetsActivity"
+            android:label="@string/title_activity_view_presets"
+            android:theme="@style/customTitleTheme" >
+            <intent-filter>
+                <action android:name="edu.vesit.ams.ViewPresetsActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="edu.vesit.ams.DispLectureTimesActivity"
+            android:label="@string/title_activity_disp_lecture_times"
+            android:theme="@style/customTitleTheme" >
+            <intent-filter>
+                <action android:name="edu.vesit.ams.DispLectureTimesActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="edu.vesit.ams.ViewPerformedAttendanceOperationsActivity"
+            android:label="@string/title_activity_view_performed_attendance_operations"
+            android:theme="@style/customTitleTheme" >
+            <intent-filter>
+                <action android:name="edu.vesit.ams.ViewPerformedAttendanceOperationsActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="edu.vesit.ams.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:theme="@style/customTitleTheme" >
+            <intent-filter>
+                <action android:name="edu.vesit.ams.SettingsActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="edu.vesit.ams.AboutAppActivity"
+            android:label="@string/title_activity_about_app"
+            android:theme="@style/customTitleTheme" >
+            <intent-filter>
+                <action android:name="edu.vesit.ams.AboutAppActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="edu.vesit.ams.DispAppUsageInstructionsActivity"
+            android:label="@string/title_activity_disp_app_usage_instructions"
+            android:theme="@style/customTitleTheme" >
+            <intent-filter>
+                <action android:name="edu.vesit.ams.DispAppUsageInstructionsActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

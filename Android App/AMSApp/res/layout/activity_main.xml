@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainScrollView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"        
+    android:scrollbars="vertical"
+    android:background="@drawable/bg" >
+    
+        <TabHost
+        android:id="@+id/tabhost"
+        android:layout_width="fill_parent"        
+        android:layout_height="wrap_content" >
+         
+        	<LinearLayout
+            	android:layout_width="fill_parent"
+            	android:layout_height="wrap_content"
+            	android:orientation="vertical" >
+
+	            <TabWidget
+	                android:id="@android:id/tabs"
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content" >
+					
+	            </TabWidget>
+	
+	            <FrameLayout
+	                android:id="@android:id/tabcontent"
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content" >
+	                
+					<!-- this is for the main Tab Content  -->
+					<TableLayout android:id="@+id/tableLayout"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content">
+					<TableRow
+		            android:id="@+id/tab1row1"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:weightSum="1.0" >
+		            <Button
+		                android:id="@+id/btnLogin"
+		                android:layout_width="fill_parent"
+		            	android:layout_height="wrap_content"
+		            	android:layout_marginLeft="5dip"
+		                android:layout_marginTop="5dip"
+		                android:layout_marginRight="5dip"
+		                android:layout_marginBottom="5dip"
+		                android:textSize="18sp"
+		                android:textColor="#ffffff"
+		            	android:text="Login"
+		                android:background="@drawable/rounded_btn"
+		                android:drawableTop="@drawable/login_btn"
+		                android:textStyle="bold"
+		            	android:layout_weight="0.5" />
+		            <Button
+		                android:id="@+id/btnViewPresets"
+		                android:layout_width="fill_parent"
+		            	android:layout_height="wrap_content"
+		            	android:layout_marginLeft="5dip"
+		                android:layout_marginTop="5dip"
+		                android:layout_marginRight="5dip"
+		                android:layout_marginBottom="5dip"
+		                android:textSize="18sp"
+		                android:textColor="#ffffff"
+		            	android:text="View Presets"
+		            	android:drawableTop="@drawable/view_presets_btn"
+		                android:background="@drawable/rounded_btn"
+		                android:textStyle="bold"
+		            	android:layout_weight="0.5" />
+		        	</TableRow>
+		        	<TableRow
+		            android:id="@+id/tab1row2"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:weightSum="1.0" >
+		            <Button
+		                android:id="@+id/btnViewPerformedAttendanceOperations"
+		                android:layout_width="fill_parent"
+		            	android:layout_height="wrap_content"
+		            	android:layout_marginLeft="5dip"
+		                android:layout_marginTop="5dip"
+		                android:layout_marginRight="5dip"
+		                android:layout_marginBottom="5dip"
+		                android:textSize="18sp"
+		                android:textColor="#ffffff"
+		            	android:text="Performed\nAttendance\nOperations"
+		                android:background="@drawable/rounded_btn"
+		                android:drawableTop="@drawable/performed_attendance_operations"
+		                android:textStyle="bold"
+		            	android:layout_weight="0.5" />
+		            <Button
+		                android:id="@+id/btnGotoSettings"
+		                android:layout_width="fill_parent"
+		            	android:layout_height="wrap_content"
+		            	android:layout_marginLeft="5dip"
+		                android:layout_marginTop="5dip"
+		                android:layout_marginRight="5dip"
+		                android:layout_marginBottom="5dip"
+		                android:textSize="18sp"
+		                android:textColor="#ffffff"
+		            	android:text="Settings"
+		            	android:drawableTop="@drawable/settings_btn1"
+		                android:background="@drawable/rounded_btn"
+		                android:textStyle="bold"
+		            	android:layout_weight="0.5" />
+		        	</TableRow>
+		        	</TableLayout>
+	
+					<!-- About App Tab Content -->
+			        <TableRow
+			            android:id="@+id/tab2"
+			            android:layout_width="fill_parent"
+			            android:layout_height="wrap_content"
+			            android:weightSum="1.0" >
+			            <Button
+			                android:id="@+id/btnAboutApp"
+			                android:layout_width="wrap_content"
+			            	android:layout_height="wrap_content"
+			            	android:layout_marginLeft="5dip"
+			                android:layout_marginTop="5dip"
+			                android:layout_marginRight="5dip"
+			                android:layout_marginBottom="5dip"
+			                android:textSize="18sp"
+			                android:textColor="#ffffff"
+			            	android:text="About AMS"
+			                android:background="@drawable/rounded_btn"
+			                android:drawableTop="@drawable/about_app_btn"
+			                android:textStyle="bold"
+			            	android:layout_weight="0.5" />
+			            <Button
+			                android:id="@+id/btnAboutDeveloper"
+			                android:layout_width="wrap_content"
+			            	android:layout_height="wrap_content"
+			            	android:layout_marginLeft="5dip"
+			                android:layout_marginTop="5dip"
+			                android:layout_marginRight="5dip"
+			                android:layout_marginBottom="5dip"
+			                android:textSize="18sp"
+			                android:textColor="#ffffff"
+			            	android:text="AMS Usage Instructions"
+			                android:background="@drawable/rounded_btn"
+			                android:drawableTop="@drawable/ams_instructions_btn"
+			                android:textStyle="bold"
+			            	android:layout_weight="0.5" />
+			        </TableRow>           
+				</FrameLayout>
+			</LinearLayout>
+		</TabHost>
+</ScrollView>

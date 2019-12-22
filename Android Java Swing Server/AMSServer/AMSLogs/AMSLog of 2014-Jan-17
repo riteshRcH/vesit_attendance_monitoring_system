@@ -1,0 +1,10 @@
+[ 17 01(Jan) 2014, Fri 07:39:27:786 PM ] ERROR => edu.vesit.ams.AMSServer$ClientConnListeningThread:2054 by ThreadName: Thread-1 - Server started listening on port number: 12589 ....
+[ 17 01(Jan) 2014, Fri 07:41:22:761 PM ] INFO  => edu.vesit.ams.AMSServer$ClientConnListeningThread:2054 by ThreadName: Thread-1 - Server started listening on port number: 12589 ....
+[ 17 01(Jan) 2014, Fri 09:44:21:403 PM ] INFO  => edu.vesit.ams.AMSServer$1:192 by ThreadName: AWT-EventQueue-0 - Client Connected Sockets were: none
+[ 17 01(Jan) 2014, Fri 09:44:21:403 PM ] INFO  => edu.vesit.ams.AMSServer$1:203 by ThreadName: AWT-EventQueue-0 - Cya soon! :)
+[ 17 01(Jan) 2014, Fri 09:44:38:375 PM ] INFO  => edu.vesit.DBDataHelper.LoginHandler:30 by ThreadName: AWT-EventQueue-0 - Connection for login established, ready to accept logins ..
+[ 17 01(Jan) 2014, Fri 09:44:40:673 PM ] INFO  => edu.vesit.DBDataHelper.AttendanceStringOperationExecutor:41 by ThreadName: AWT-EventQueue-0 - Connection for Attendance String Operation Execution established, ready to accept AttendanceStringOperations ..
+[ 17 01(Jan) 2014, Fri 09:44:41:596 PM ] INFO  => edu.vesit.DBDataHelper.TriggerStringOperationExecutor:44 by ThreadName: AWT-EventQueue-0 - Connection for Trigger String Operation Execution established, ready to accept TriggerStringOperations ..
+[ 17 01(Jan) 2014, Fri 09:44:43:925 PM ] INFO  => edu.vesit.DBDataHelper.DefaultersCalculator:105 by ThreadName: AWT-EventQueue-0 - DB Connection Success for Defaulters Calculation!
+[ 17 01(Jan) 2014, Fri 09:46:29:838 PM ] INFO  => edu.vesit.ams.AMSServer$1:192 by ThreadName: AWT-EventQueue-0 - Client Connected Sockets were: none
+[ 17 01(Jan) 2014, Fri 09:46:29:838 PM ] INFO  => edu.vesit.ams.AMSServer$1:203 by ThreadName: AWT-EventQueue-0 - Cya soon! :)

@@ -1,0 +1,77 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    
+    <!-- *********************************************************************SPLASH ACTIVITY********************************************************************* -->
+    <style name="Theme.Transparent" parent="android:Theme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowAnimationStyle">@style/Animations.SplashActivity</item>
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <!--  <style name="AppTheme" parent="AppBaseTheme"> -->
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    <!--  </style> -->
+    <style name="Animations" parent="@android:Animation" />
+        <style name="Animations.SplashActivity">
+            <item name="android:windowEnterAnimation">@anim/appear</item>
+        	<item name="android:windowExitAnimation">@anim/disappear</item> 
+        </style>
+    <!-- *********************************************************************SPLASH ACTIVITY********************************************************************* -->    
+        
+	<!-- *********************************************************************TITLE BAR********************************************************************* -->  
+    	 <style name="customWindowTitleText" parent="android:TextAppearance.WindowTitle">
+    	     <item name="android:textColor">#87CEFA</item> 
+    	</style> 
+     <!-- Changes the background color of the title bar -->
+     <style name="CustomWindowTitleBackground">
+           <item name="android:background">#C0C0C0</item>
+     </style>
+    
+     <!-- Set the theme for the window title -->
+     <!-- NOTE: setting android:textAppearence to style defined above -->
+     <style name="CustomWindowTitle" parent="android:TextAppearance.WindowTitle">
+          <item name="android:textAppearance">@style/customWindowTitleText</item>
+          <item name="android:shadowDx">2</item>
+          <item name="android:shadowDy">2</item>
+          <item name="android:shadowRadius">5</item>
+          <item name="android:shadowColor">#1155CC</item>
+      </style>
+      <!-- Override properties in the default theme -->
+      <!-- NOTE: you must explicitly the windowTitleSize property, the title bar will not re-size automatically, text will be clipped -->
+      <style name="customTitleTheme" parent="android:Theme">
+           <item name="android:windowTitleSize">50dip</item>
+           <item name="android:windowTitleStyle">@style/CustomWindowTitle</item>
+           <item name="android:windowTitleBackgroundStyle">@style/CustomWindowTitleBackground</item>
+      </style>
+    	<!-- *********************************************************************TITLE BAR********************************************************************* -->
+    	<!-- <color name="ActivityBgColor">#E6E6E6</color> 
+    	<color name="EventsDispBgColor">#EEE0E5</color>	  
+    	
+    	<style name="Theme.BackColor" parent="android:Theme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@color/EventsDispBgColor</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowAnimationStyle">@style/Animations.SplashActivity</item>-->
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    <!--</style>-->
+</resources>

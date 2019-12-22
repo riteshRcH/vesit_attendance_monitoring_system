@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VESIT AMS</string>
+
+    <string-array name="Classes">
+        <item>D6</item>
+        <!-- len("D6_TEAM_A") => 9 -->
+        <item>D7A</item>
+        <!-- len("D7A_TEAM_A") => 10 -->
+        <item>D7B</item>
+        <!-- len("D7B_TEAM_A") => 10 -->
+        <item>D7C</item>
+        <!-- len("D7C_TEAM_A") => 10 -->
+        <item>D8</item>
+        <!-- len("D8_TEAM_A") => 9 -->
+        <item>D9</item>
+        <!-- len("D9_TEAM_A") => 9 -->
+        <item>D10</item>
+        <!-- len("D10_TEAM_A") => 10 -->
+        <item>D11</item>
+        <!-- len("D11_TEAM_A") => 10 -->
+        <item>D12A</item>
+        <!-- len("D12A_TEAM_A") => 11 -->
+        <item>D12B</item>
+        <!-- len("D12B_TEAM_A") => 11 -->
+        <item>D13</item>
+        <!-- len("D13_TEAM_A") => 10 -->
+        <item>D14</item>
+        <!-- len("D14_TEAM_A") => 10 -->
+        <item>D15</item>
+        <!-- len("D15_TEAM_A") => 10 -->
+    </string-array>
+    <!-- Wireless Elims -->
+
+    <string name="title_activity_update_absentees">Feed Absentees</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_view_presets">Update/Fetch Presets</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_disp_lecture_times">Lecture Times</string>
+    <string name="title_activity_view_performed_attendance_operations">Preformed Attendance Operations</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_about_app">About AMS</string>
+    <string name="title_activity_disp_app_usage_instructions">Instructions</string>
+
+</resources>

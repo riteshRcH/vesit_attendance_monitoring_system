@@ -1,0 +1,145 @@
+[ 25 07(Jul) 2014, Fri 12:56:45:267 PM ] INFO  => edu.vesit.DBDataHelper.LoginHandler:41 by ThreadName: AWT-EventQueue-0 - Data Source for login established, ready to accept logins ..
+[ 25 07(Jul) 2014, Fri 12:56:48:096 PM ] INFO  => edu.vesit.DBDataHelper.AttendanceStringOperationExecutor:51 by ThreadName: AWT-EventQueue-0 - Data Source for Attendance String Operation Execution established, ready to accept AttendanceStringOperations ..
+[ 25 07(Jul) 2014, Fri 12:56:49:394 PM ] INFO  => edu.vesit.DBDataHelper.TriggerStringOperationExecutor:54 by ThreadName: AWT-EventQueue-0 - Data Source for Trigger String Operation Execution established, ready to accept TriggerStringOperations ..
+[ 25 07(Jul) 2014, Fri 12:56:50:895 PM ] INFO  => edu.vesit.ams.AMSServer$ClientConnListeningThread:2115 by ThreadName: Thread-1 - Server started listening on port number: 12589 ....
+[ 25 07(Jul) 2014, Fri 12:56:50:895 PM ] INFO  => edu.vesit.ams.AMSServer$ClientConnListeningThread:2117 by ThreadName: Thread-1 - Waiting for client requests .... 
+[ 25 07(Jul) 2014, Fri 12:57:15:053 PM ] INFO  => edu.vesit.ams.AMSServer$2:202 by ThreadName: AWT-EventQueue-0 - Client Connected Sockets were: none
+[ 25 07(Jul) 2014, Fri 12:57:15:053 PM ] INFO  => com.zaxxer.hikari.HikariPool:249 by ThreadName: AWT-EventQueue-0 - HikariCP pool HikariPool-2 is being shutdown.
+[ 25 07(Jul) 2014, Fri 12:57:15:053 PM ] INFO  => edu.vesit.ams.AMSServer$ClientConnListeningThread:2126 by ThreadName: Thread-1 - Connection Listening Server stopped!
+[ 25 07(Jul) 2014, Fri 12:57:15:053 PM ] INFO  => edu.vesit.ams.AMSServer$2:216 by ThreadName: AWT-EventQueue-0 - Successfully shutdown the Attendance StringOperation Executor's DB Connection Pool!
+[ 25 07(Jul) 2014, Fri 12:57:15:053 PM ] INFO  => com.zaxxer.hikari.HikariPool:249 by ThreadName: AWT-EventQueue-0 - HikariCP pool HikariPool-4 is being shutdown.
+[ 25 07(Jul) 2014, Fri 12:57:15:070 PM ] INFO  => edu.vesit.ams.AMSServer$2:221 by ThreadName: AWT-EventQueue-0 - Successfully shutdown the Trigger StringOperation Executor's DB Connection Pool!
+[ 25 07(Jul) 2014, Fri 12:57:15:070 PM ] INFO  => com.zaxxer.hikari.HikariPool:249 by ThreadName: AWT-EventQueue-0 - HikariCP pool HikariPool-0 is being shutdown.
+[ 25 07(Jul) 2014, Fri 12:57:15:070 PM ] INFO  => edu.vesit.ams.AMSServer$2:226 by ThreadName: AWT-EventQueue-0 - Successfully shutdown the LoginHandler's DB Connection Pool!
+[ 25 07(Jul) 2014, Fri 12:57:15:133 PM ] INFO  => edu.vesit.ams.AMSServer$2:230 by ThreadName: AWT-EventQueue-0 - Performed Garbage Collection!
+[ 25 07(Jul) 2014, Fri 12:57:15:133 PM ] INFO  => edu.vesit.ams.AMSServer$2:231 by ThreadName: AWT-EventQueue-0 - Cya soon! :)
+[ 25 07(Jul) 2014, Fri 12:57:39:135 PM ] INFO  => edu.vesit.DBDataHelper.LoginHandler:41 by ThreadName: AWT-EventQueue-0 - Data Source for login established, ready to accept logins ..
+[ 25 07(Jul) 2014, Fri 12:57:39:699 PM ] INFO  => edu.vesit.DBDataHelper.AttendanceStringOperationExecutor:51 by ThreadName: AWT-EventQueue-0 - Data Source for Attendance String Operation Execution established, ready to accept AttendanceStringOperations ..
+[ 25 07(Jul) 2014, Fri 12:57:40:386 PM ] INFO  => edu.vesit.DBDataHelper.TriggerStringOperationExecutor:54 by ThreadName: AWT-EventQueue-0 - Data Source for Trigger String Operation Execution established, ready to accept TriggerStringOperations ..
+[ 25 07(Jul) 2014, Fri 12:57:41:731 PM ] INFO  => edu.vesit.ams.AMSServer$ClientConnListeningThread:2115 by ThreadName: Thread-1 - Server started listening on port number: 12589 ....
+[ 25 07(Jul) 2014, Fri 12:57:41:731 PM ] INFO  => edu.vesit.ams.AMSServer$ClientConnListeningThread:2117 by ThreadName: Thread-1 - Waiting for client requests .... 
+[ 25 07(Jul) 2014, Fri 12:58:15:954 PM ] INFO  => edu.vesit.ams.AMSServer$ClientServicingThread:484 by ThreadName: Thread-1 - ClientServicingThread1 has been started for remote Client: /10.0.0.8:52971
+[ 25 07(Jul) 2014, Fri 12:58:16:017 PM ] INFO  => edu.vesit.ams.AMSServer$ClientServicingThread:502 by ThreadName: ClientServicingThread1 - Message Received: "Client: Hello!" => Handshake request from: /10.0.0.8:52971 ....Handshake success!
+[ 25 07(Jul) 2014, Fri 12:58:20:424 PM ] INFO  => edu.vesit.ams.AMSServer$ClientServicingThread:517 by ThreadName: ClientServicingThread1 - Message Received: "LOGIN Manisha~password~vesitams2013to2014" => New Login from: /10.0.0.8:52971 ....LOGIN Success!
+[ 25 07(Jul) 2014, Fri 12:59:11:880 PM ] INFO  => edu.vesit.ams.AMSServer$ClientServicingThread:759 by ThreadName: ClientServicingThread1 - Message Received: "AttendanceStringOperation~SINGLE Insert/Update~vesitams2013to2014~attendance_manisha_te_cmpn_d12a_spcc_practicals~81~25/7/2014~01:00 PM~03:00 PM~Absentees~1,67,45,47,78,32,33,34,35,36,38,40,41,44,45,67,69~None~None" => Attendance String Operation(SINGLE Insert/Update) request from: /10.0.0.8:52971 ....
+[ 25 07(Jul) 2014, Fri 12:59:12:100 PM ] INFO  => edu.vesit.ams.AMSServer$ClientServicingThread:775 by ThreadName: ClientServicingThread1 - 1st Query(select * from vesitams2013to2014.attendance_manisha_te_cmpn_d12a_spcc_practicals where attendanceDate='2014-07-25' and lectureStartTime='13:00' and lectureEndTime='15:00') Execution initiated for: /10.0.0.8:52971 ....Execution Success .. Sent Intermediate Results .. Awaiting Confirmation!
+[ 25 07(Jul) 2014, Fri 12:59:12:257 PM ] ERROR => edu.vesit.ams.AMSServer$ClientServicingThread:972 by ThreadName: ClientServicingThread1 - 2nd Query (Insert/Update Query)(insert into vesitams2013to2014.attendance_manisha_te_cmpn_d12a_spcc_practicals(attendanceDate, lectureStartTime, lectureEndTime, `1`, `67`, `45`, `47`, `78`, `32`, `33`, `34`, `35`, `36`, `38`, `40`, `41`, `44`, `45`, `67`, `69`) values('2014-07-25', '13:00', '15:00', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A')) Execution initiated for: /10.0.0.8:52971 ....Execution Failed!
+[ 25 07(Jul) 2014, Fri 12:59:12:257 PM ] ERROR => edu.vesit.ams.AMSServer:281 by ThreadName: ClientServicingThread1 - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Column '67' specified twice
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1054)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4190)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4122)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2570)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2731)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2812)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1811)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1725)
+	at com.zaxxer.hikari.proxy.StatementJavassistProxy.executeUpdate(StatementJavassistProxy.java)
+	at edu.vesit.DBDataHelper.AttendanceStringOperationExecutor.executeAttendanceStringOperation(AttendanceStringOperationExecutor.java:90)
+	at edu.vesit.ams.AMSServer$ClientServicingThread.run(AMSServer.java:954)
+
+[ 25 07(Jul) 2014, Fri 01:01:29:081 PM ] INFO  => edu.vesit.ams.AMSServer$ClientServicingThread:759 by ThreadName: ClientServicingThread1 - Message Received: "AttendanceStringOperation~SINGLE Insert/Update~vesitams2013to2014~attendance_manisha_te_cmpn_d12a_spcc_practicals~81~25/7/2014~01:00 PM~03:00 PM~Absentees~1,67,45,47,78,32,33,34,35,36,38,40,41,44,45,69~None~None" => Attendance String Operation(SINGLE Insert/Update) request from: /10.0.0.8:52971 ....
+[ 25 07(Jul) 2014, Fri 01:01:29:085 PM ] INFO  => edu.vesit.ams.AMSServer$ClientServicingThread:775 by ThreadName: ClientServicingThread1 - 1st Query(select * from vesitams2013to2014.attendance_manisha_te_cmpn_d12a_spcc_practicals where attendanceDate='2014-07-25' and lectureStartTime='13:00' and lectureEndTime='15:00') Execution initiated for: /10.0.0.8:52971 ....Execution Success .. Sent Intermediate Results .. Awaiting Confirmation!
+[ 25 07(Jul) 2014, Fri 01:01:52:032 PM ] ERROR => edu.vesit.ams.AMSServer$ClientServicingThread:972 by ThreadName: ClientServicingThread1 - 1st Query(select * from vesitams2013to2014.attendance_manisha_te_cmpn_d12a_spcc_practicals where attendanceDate='2014-07-25' and lectureStartTime='13:00' and lectureEndTime='15:00') Execution initiated for: /10.0.0.8:52971 ....Execution Success .. Sent Intermediate Results .. Awaiting Confirmation!Execution Failed!
+[ 25 07(Jul) 2014, Fri 01:01:52:032 PM ] ERROR => edu.vesit.ams.AMSServer:281 by ThreadName: ClientServicingThread1 - java.lang.ClassCastException: java.lang.String cannot be cast to [Ljava.lang.Boolean;
+	at edu.vesit.ams.AMSServer$ClientServicingThread.run(AMSServer.java:806)
+
+[ 25 07(Jul) 2014, Fri 01:02:07:900 PM ] INFO  => edu.vesit.ams.AMSServer$ClientServicingThread:2085 by ThreadName: ClientServicingThread1 - Remote Client's: /10.0.0.8:52971 {for TeacherUserName: Manisha} socket closed (its ClientServicingThread1 has been stopped) .. has finished!
+[ 25 07(Jul) 2014, Fri 01:02:15:838 PM ] INFO  => edu.vesit.ams.AMSServer$2:202 by ThreadName: AWT-EventQueue-0 - Client Connected Sockets were: [Socket[addr=/10.0.0.8,port=52971,localport=12589]]
+[ 25 07(Jul) 2014, Fri 01:02:15:838 PM ] INFO  => com.zaxxer.hikari.HikariPool:249 by ThreadName: AWT-EventQueue-0 - HikariCP pool HikariPool-2 is being shutdown.
+[ 25 07(Jul) 2014, Fri 01:02:15:838 PM ] INFO  => edu.vesit.ams.AMSServer$ClientConnListeningThread:2126 by ThreadName: Thread-1 - Connection Listening Server stopped!
+[ 25 07(Jul) 2014, Fri 01:02:15:838 PM ] INFO  => edu.vesit.ams.AMSServer$2:216 by ThreadName: AWT-EventQueue-0 - Successfully shutdown the Attendance StringOperation Executor's DB Connection Pool!
+[ 25 07(Jul) 2014, Fri 01:02:15:838 PM ] INFO  => com.zaxxer.hikari.HikariPool:249 by ThreadName: AWT-EventQueue-0 - HikariCP pool HikariPool-4 is being shutdown.
+[ 25 07(Jul) 2014, Fri 01:02:15:838 PM ] INFO  => edu.vesit.ams.AMSServer$2:221 by ThreadName: AWT-EventQueue-0 - Successfully shutdown the Trigger StringOperation Executor's DB Connection Pool!
+[ 25 07(Jul) 2014, Fri 01:02:15:838 PM ] INFO  => com.zaxxer.hikari.HikariPool:249 by ThreadName: AWT-EventQueue-0 - HikariCP pool HikariPool-0 is being shutdown.
+[ 25 07(Jul) 2014, Fri 01:02:15:838 PM ] INFO  => edu.vesit.ams.AMSServer$2:226 by ThreadName: AWT-EventQueue-0 - Successfully shutdown the LoginHandler's DB Connection Pool!
+[ 25 07(Jul) 2014, Fri 01:02:15:918 PM ] INFO  => edu.vesit.ams.AMSServer$2:230 by ThreadName: AWT-EventQueue-0 - Performed Garbage Collection!
+[ 25 07(Jul) 2014, Fri 01:02:15:918 PM ] INFO  => edu.vesit.ams.AMSServer$2:231 by ThreadName: AWT-EventQueue-0 - Cya soon! :)
+[ 25 07(Jul) 2014, Fri 01:02:22:435 PM ] INFO  => edu.vesit.DBDataHelper.LoginHandler:41 by ThreadName: AWT-EventQueue-0 - Data Source for login established, ready to accept logins ..
+[ 25 07(Jul) 2014, Fri 01:02:22:920 PM ] INFO  => edu.vesit.DBDataHelper.AttendanceStringOperationExecutor:51 by ThreadName: AWT-EventQueue-0 - Data Source for Attendance String Operation Execution established, ready to accept AttendanceStringOperations ..
+[ 25 07(Jul) 2014, Fri 01:02:23:420 PM ] INFO  => edu.vesit.DBDataHelper.TriggerStringOperationExecutor:54 by ThreadName: AWT-EventQueue-0 - Data Source for Trigger String Operation Execution established, ready to accept TriggerStringOperations ..
+[ 25 07(Jul) 2014, Fri 01:02:24:389 PM ] INFO  => edu.vesit.ams.AMSServer$ClientConnListeningThread:2115 by ThreadName: Thread-1 - Server started listening on port number: 12589 ....
+[ 25 07(Jul) 2014, Fri 01:02:24:389 PM ] INFO  => edu.vesit.ams.AMSServer$ClientConnListeningThread:2117 by ThreadName: Thread-1 - Waiting for client requests .... 
+[ 25 07(Jul) 2014, Fri 01:02:33:314 PM ] INFO  => edu.vesit.ams.AMSServer$ClientServicingThread:484 by ThreadName: Thread-1 - ClientServicingThread1 has been started for remote Client: /10.0.0.8:48738
+[ 25 07(Jul) 2014, Fri 01:02:33:314 PM ] INFO  => edu.vesit.ams.AMSServer$ClientServicingThread:502 by ThreadName: ClientServicingThread1 - Message Received: "Client: Hello!" => Handshake request from: /10.0.0.8:48738 ....Handshake success!
+[ 25 07(Jul) 2014, Fri 01:02:35:206 PM ] INFO  => edu.vesit.ams.AMSServer$ClientServicingThread:517 by ThreadName: ClientServicingThread1 - Message Received: "LOGIN Manisha~password~vesitams2013to2014" => New Login from: /10.0.0.8:48738 ....LOGIN Success!
+[ 25 07(Jul) 2014, Fri 01:03:19:227 PM ] INFO  => edu.vesit.ams.AMSServer$ClientServicingThread:759 by ThreadName: ClientServicingThread1 - Message Received: "AttendanceStringOperation~SINGLE Insert/Update~vesitams2013to2014~attendance_manisha_befinalyear_cmpn_d17a_ss_classlecture~81~25/7/2014~03:00 PM~04:00 PM~Absentees~1,67,58,12,15,17,10,19,27,36~None~None" => Attendance String Operation(SINGLE Insert/Update) request from: /10.0.0.8:48738 ....
+[ 25 07(Jul) 2014, Fri 01:03:19:244 PM ] ERROR => edu.vesit.ams.AMSServer$ClientServicingThread:972 by ThreadName: ClientServicingThread1 - 1st Query(select * from vesitams2013to2014.attendance_manisha_befinalyear_cmpn_d17a_ss_classlecture where attendanceDate='2014-07-25' and lectureStartTime='15:00' and lectureEndTime='16:00') Execution initiated for: /10.0.0.8:48738 ....Execution Failed!
+[ 25 07(Jul) 2014, Fri 01:03:19:244 PM ] ERROR => edu.vesit.ams.AMSServer:281 by ThreadName: ClientServicingThread1 - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'vesitams2013to2014.attendance_manisha_befinalyear_cmpn_d17a_ss_classlecture' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1054)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4190)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4122)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2570)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2731)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2812)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2761)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1612)
+	at com.zaxxer.hikari.proxy.StatementProxy.executeQuery(StatementProxy.java:79)
+	at edu.vesit.DBDataHelper.AttendanceStringOperationExecutor.popualateIntermediateResult(AttendanceStringOperationExecutor.java:144)
+	at edu.vesit.DBDataHelper.AttendanceStringOperationExecutor.executeAttendanceStringOperation(AttendanceStringOperationExecutor.java:98)
+	at edu.vesit.ams.AMSServer$ClientServicingThread.run(AMSServer.java:771)
+
+[ 25 07(Jul) 2014, Fri 01:03:54:138 PM ] INFO  => edu.vesit.ams.AMSServer$ClientServicingThread:759 by ThreadName: ClientServicingThread1 - Message Received: "AttendanceStringOperation~SINGLE Insert/Update~vesitams2013to2014~attendance_manisha_te_cmpn_d12a_spcc_practicals~81~25/7/2014~01:00 PM~03:00 PM~Absentees~1,67,58,12,15,17,10,19,27,36~None~None" => Attendance String Operation(SINGLE Insert/Update) request from: /10.0.0.8:48738 ....
+[ 25 07(Jul) 2014, Fri 01:03:54:138 PM ] INFO  => edu.vesit.ams.AMSServer$ClientServicingThread:775 by ThreadName: ClientServicingThread1 - 1st Query(select * from vesitams2013to2014.attendance_manisha_te_cmpn_d12a_spcc_practicals where attendanceDate='2014-07-25' and lectureStartTime='13:00' and lectureEndTime='15:00') Execution initiated for: /10.0.0.8:48738 ....Execution Success .. Sent Intermediate Results .. Awaiting Confirmation!
+[ 25 07(Jul) 2014, Fri 01:04:21:906 PM ] ERROR => edu.vesit.ams.AMSServer$ClientServicingThread:972 by ThreadName: ClientServicingThread1 - 1st Query(select * from vesitams2013to2014.attendance_manisha_te_cmpn_d12a_spcc_practicals where attendanceDate='2014-07-25' and lectureStartTime='13:00' and lectureEndTime='15:00') Execution initiated for: /10.0.0.8:48738 ....Execution Success .. Sent Intermediate Results .. Awaiting Confirmation!Execution Failed!
+[ 25 07(Jul) 2014, Fri 01:04:21:906 PM ] ERROR => edu.vesit.ams.AMSServer:281 by ThreadName: ClientServicingThread1 - java.lang.ClassCastException: java.lang.String cannot be cast to [Ljava.lang.Boolean;
+	at edu.vesit.ams.AMSServer$ClientServicingThread.run(AMSServer.java:806)
+
+[ 25 07(Jul) 2014, Fri 01:04:26:376 PM ] INFO  => edu.vesit.ams.AMSServer$ClientServicingThread:2085 by ThreadName: ClientServicingThread1 - Remote Client's: /10.0.0.8:48738 {for TeacherUserName: Manisha} socket closed (its ClientServicingThread1 has been stopped) .. has finished!
+[ 25 07(Jul) 2014, Fri 01:04:39:034 PM ] INFO  => edu.vesit.ams.AMSServer$ClientServicingThread:484 by ThreadName: Thread-1 - ClientServicingThread2 has been started for remote Client: /10.0.0.8:53691
+[ 25 07(Jul) 2014, Fri 01:04:39:051 PM ] INFO  => edu.vesit.ams.AMSServer$ClientServicingThread:502 by ThreadName: ClientServicingThread2 - Message Received: "Client: Hello!" => Handshake request from: /10.0.0.8:53691 ....Handshake success!
+[ 25 07(Jul) 2014, Fri 01:04:41:864 PM ] INFO  => edu.vesit.ams.AMSServer$ClientServicingThread:517 by ThreadName: ClientServicingThread2 - Message Received: "LOGIN Manisha~password~vesitams2013to2014" => New Login from: /10.0.0.8:53691 ....LOGIN Success!
+[ 25 07(Jul) 2014, Fri 01:05:05:272 PM ] INFO  => edu.vesit.ams.AMSServer$ClientServicingThread:759 by ThreadName: ClientServicingThread2 - Message Received: "AttendanceStringOperation~SINGLE Insert/Update~vesitams2013to2014~attendance_manisha_te_cmpn_d12a_spcc_practicals~81~25/7/2014~01:00 PM~03:00 PM~Absentees~1,67,58,12,15,17,10,19,27,36~None~None" => Attendance String Operation(SINGLE Insert/Update) request from: /10.0.0.8:53691 ....
+[ 25 07(Jul) 2014, Fri 01:05:05:272 PM ] INFO  => edu.vesit.ams.AMSServer$ClientServicingThread:775 by ThreadName: ClientServicingThread2 - 1st Query(select * from vesitams2013to2014.attendance_manisha_te_cmpn_d12a_spcc_practicals where attendanceDate='2014-07-25' and lectureStartTime='13:00' and lectureEndTime='15:00') Execution initiated for: /10.0.0.8:53691 ....Execution Success .. Sent Intermediate Results .. Awaiting Confirmation!
+[ 25 07(Jul) 2014, Fri 01:05:05:554 PM ] INFO  => edu.vesit.ams.AMSServer$ClientServicingThread:959 by ThreadName: ClientServicingThread2 - 2nd Query (Insert/Update Query)(insert into vesitams2013to2014.attendance_manisha_te_cmpn_d12a_spcc_practicals(attendanceDate, lectureStartTime, lectureEndTime, `1`, `67`, `58`, `12`, `15`, `17`, `10`, `19`, `27`, `36`) values('2014-07-25', '13:00', '15:00', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A')) Execution initiated for: /10.0.0.8:53691 ....Insertion/Updation Success!
+[ 25 07(Jul) 2014, Fri 01:05:53:637 PM ] INFO  => edu.vesit.ams.AMSServer$ClientServicingThread:759 by ThreadName: ClientServicingThread2 - Message Received: "AttendanceStringOperation~SINGLE Insert/Update~vesitams2013to2014~attendance_manisha_te_cmpn_d12a_spcc_practicals~81~25/7/2014~01:00 PM~03:00 PM~Absentees~1,67,58,12,15,17,10,19,27,36,78,47,2,3,4,5,6,7,8,9,11,13~None~None" => Attendance String Operation(SINGLE Insert/Update) request from: /10.0.0.8:53691 ....
+[ 25 07(Jul) 2014, Fri 01:05:53:732 PM ] INFO  => edu.vesit.ams.AMSServer$ClientServicingThread:775 by ThreadName: ClientServicingThread2 - 1st Query(select * from vesitams2013to2014.attendance_manisha_te_cmpn_d12a_spcc_practicals where attendanceDate='2014-07-25' and lectureStartTime='13:00' and lectureEndTime='15:00') Execution initiated for: /10.0.0.8:53691 ....Execution Success .. Sent Intermediate Results .. Awaiting Confirmation!
+[ 25 07(Jul) 2014, Fri 01:05:56:185 PM ] INFO  => edu.vesit.ams.AMSServer$ClientServicingThread:944 by ThreadName: ClientServicingThread2 - 1st Query(select * from vesitams2013to2014.attendance_manisha_te_cmpn_d12a_spcc_practicals where attendanceDate='2014-07-25' and lectureStartTime='13:00' and lectureEndTime='15:00') Execution initiated for: /10.0.0.8:53691 ....Execution Success .. Sent Intermediate Results .. Awaiting Confirmation!Insertion/Updation Operation canceled by user!
+[ 25 07(Jul) 2014, Fri 01:06:02:171 PM ] INFO  => edu.vesit.ams.AMSServer$ClientServicingThread:759 by ThreadName: ClientServicingThread2 - Message Received: "AttendanceStringOperation~SINGLE Insert/Update~vesitams2013to2014~attendance_manisha_te_cmpn_d12a_spcc_practicals~81~26/7/2014~01:00 PM~03:00 PM~Absentees~1,67,58,12,15,17,10,19,27,36,78,47,2,3,4,5,6,7,8,9,11,13~None~None" => Attendance String Operation(SINGLE Insert/Update) request from: /10.0.0.8:53691 ....
+[ 25 07(Jul) 2014, Fri 01:06:02:171 PM ] INFO  => edu.vesit.ams.AMSServer$ClientServicingThread:775 by ThreadName: ClientServicingThread2 - 1st Query(select * from vesitams2013to2014.attendance_manisha_te_cmpn_d12a_spcc_practicals where attendanceDate='2014-07-26' and lectureStartTime='13:00' and lectureEndTime='15:00') Execution initiated for: /10.0.0.8:53691 ....Execution Success .. Sent Intermediate Results .. Awaiting Confirmation!
+[ 25 07(Jul) 2014, Fri 01:06:02:312 PM ] INFO  => edu.vesit.ams.AMSServer$ClientServicingThread:959 by ThreadName: ClientServicingThread2 - 2nd Query (Insert/Update Query)(insert into vesitams2013to2014.attendance_manisha_te_cmpn_d12a_spcc_practicals(attendanceDate, lectureStartTime, lectureEndTime, `1`, `67`, `58`, `12`, `15`, `17`, `10`, `19`, `27`, `36`, `78`, `47`, `2`, `3`, `4`, `5`, `6`, `7`, `8`, `9`, `11`, `13`) values('2014-07-26', '13:00', '15:00', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A')) Execution initiated for: /10.0.0.8:53691 ....Insertion/Updation Success!
+[ 25 07(Jul) 2014, Fri 01:06:05:547 PM ] INFO  => edu.vesit.ams.AMSServer$ClientServicingThread:2085 by ThreadName: ClientServicingThread2 - Remote Client's: /10.0.0.8:53691 {for TeacherUserName: Manisha} socket closed (its ClientServicingThread2 has been stopped) .. has finished!
+[ 25 07(Jul) 2014, Fri 01:06:50:457 PM ] INFO  => edu.vesit.ams.AMSServer$ClientServicingThread:484 by ThreadName: Thread-1 - ClientServicingThread3 has been started for remote Client: /10.0.0.8:47604
+[ 25 07(Jul) 2014, Fri 01:06:50:457 PM ] INFO  => edu.vesit.ams.AMSServer$ClientServicingThread:502 by ThreadName: ClientServicingThread3 - Message Received: "Client: Hello!" => Handshake request from: /10.0.0.8:47604 ....Handshake success!
+[ 25 07(Jul) 2014, Fri 01:06:52:661 PM ] INFO  => edu.vesit.ams.AMSServer$ClientServicingThread:517 by ThreadName: ClientServicingThread3 - Message Received: "LOGIN Manisha~password~vesitams2013to2014" => New Login from: /10.0.0.8:47604 ....LOGIN Success!
+[ 25 07(Jul) 2014, Fri 01:09:49:198 PM ] INFO  => edu.vesit.ams.AMSServer$ClientServicingThread:759 by ThreadName: ClientServicingThread3 - Message Received: "AttendanceStringOperation~SINGLE Insert/Update~vesitams2013to2014~attendance_manisha_te_cmpn_d12a_spcc_practicals~81~30/7/2014~01:00 PM~03:00 PM~Absentees~7,8,13,15,14,22,28,29,43,44,50,52,56,58,59,60,62,65,66,69,70,71,72,74,75,76,78,79~None~None" => Attendance String Operation(SINGLE Insert/Update) request from: /10.0.0.8:47604 ....
+[ 25 07(Jul) 2014, Fri 01:09:49:202 PM ] INFO  => edu.vesit.ams.AMSServer$ClientServicingThread:775 by ThreadName: ClientServicingThread3 - 1st Query(select * from vesitams2013to2014.attendance_manisha_te_cmpn_d12a_spcc_practicals where attendanceDate='2014-07-30' and lectureStartTime='13:00' and lectureEndTime='15:00') Execution initiated for: /10.0.0.8:47604 ....Execution Success .. Sent Intermediate Results .. Awaiting Confirmation!
+[ 25 07(Jul) 2014, Fri 01:09:49:596 PM ] INFO  => edu.vesit.ams.AMSServer$ClientServicingThread:959 by ThreadName: ClientServicingThread3 - 2nd Query (Insert/Update Query)(insert into vesitams2013to2014.attendance_manisha_te_cmpn_d12a_spcc_practicals(attendanceDate, lectureStartTime, lectureEndTime, `7`, `8`, `13`, `15`, `14`, `22`, `28`, `29`, `43`, `44`, `50`, `52`, `56`, `58`, `59`, `60`, `62`, `65`, `66`, `69`, `70`, `71`, `72`, `74`, `75`, `76`, `78`, `79`) values('2014-07-30', '13:00', '15:00', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A')) Execution initiated for: /10.0.0.8:47604 ....Insertion/Updation Success!
+[ 25 07(Jul) 2014, Fri 01:09:52:846 PM ] INFO  => edu.vesit.ams.AMSServer$ClientServicingThread:2085 by ThreadName: ClientServicingThread3 - Remote Client's: /10.0.0.8:47604 {for TeacherUserName: Manisha} socket closed (its ClientServicingThread3 has been stopped) .. has finished!
+[ 25 07(Jul) 2014, Fri 01:10:09:619 PM ] INFO  => edu.vesit.ams.AMSServer$ClientServicingThread:484 by ThreadName: Thread-1 - ClientServicingThread4 has been started for remote Client: /10.0.0.8:36266
+[ 25 07(Jul) 2014, Fri 01:10:09:635 PM ] INFO  => edu.vesit.ams.AMSServer$ClientServicingThread:502 by ThreadName: ClientServicingThread4 - Message Received: "Client: Hello!" => Handshake request from: /10.0.0.8:36266 ....Handshake success!
+[ 25 07(Jul) 2014, Fri 01:10:11:104 PM ] INFO  => edu.vesit.ams.AMSServer$ClientServicingThread:517 by ThreadName: ClientServicingThread4 - Message Received: "LOGIN Manisha~password~vesitams2013to2014" => New Login from: /10.0.0.8:36266 ....LOGIN Success!
+[ 25 07(Jul) 2014, Fri 01:10:30:965 PM ] INFO  => edu.vesit.ams.AMSServer$ClientServicingThread:759 by ThreadName: ClientServicingThread4 - Message Received: "AttendanceStringOperation~SINGLE Insert/Update~vesitams2013to2014~attendance_manisha_te_cmpn_d12a_spcc_practicals~81~1/8/2014~01:00 PM~03:00 PM~Absentees~1,1~None~None" => Attendance String Operation(SINGLE Insert/Update) request from: /10.0.0.8:36266 ....
+[ 25 07(Jul) 2014, Fri 01:10:30:965 PM ] INFO  => edu.vesit.ams.AMSServer$ClientServicingThread:775 by ThreadName: ClientServicingThread4 - 1st Query(select * from vesitams2013to2014.attendance_manisha_te_cmpn_d12a_spcc_practicals where attendanceDate='2014-08-01' and lectureStartTime='13:00' and lectureEndTime='15:00') Execution initiated for: /10.0.0.8:36266 ....Execution Success .. Sent Intermediate Results .. Awaiting Confirmation!
+[ 25 07(Jul) 2014, Fri 01:10:31:076 PM ] ERROR => edu.vesit.ams.AMSServer$ClientServicingThread:972 by ThreadName: ClientServicingThread4 - 2nd Query (Insert/Update Query)(insert into vesitams2013to2014.attendance_manisha_te_cmpn_d12a_spcc_practicals(attendanceDate, lectureStartTime, lectureEndTime, `1`, `1`) values('2014-08-01', '13:00', '15:00', 'A', 'A')) Execution initiated for: /10.0.0.8:36266 ....Execution Failed!
+[ 25 07(Jul) 2014, Fri 01:10:31:076 PM ] ERROR => edu.vesit.ams.AMSServer:281 by ThreadName: ClientServicingThread4 - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Column '1' specified twice
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1054)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4190)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4122)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2570)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2731)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2812)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1811)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1725)
+	at com.zaxxer.hikari.proxy.StatementJavassistProxy.executeUpdate(StatementJavassistProxy.java)
+	at edu.vesit.DBDataHelper.AttendanceStringOperationExecutor.executeAttendanceStringOperation(AttendanceStringOperationExecutor.java:90)
+	at edu.vesit.ams.AMSServer$ClientServicingThread.run(AMSServer.java:954)
+
+[ 25 07(Jul) 2014, Fri 01:10:35:983 PM ] INFO  => edu.vesit.ams.AMSServer$ClientServicingThread:2085 by ThreadName: ClientServicingThread4 - Remote Client's: /10.0.0.8:36266 {for TeacherUserName: Manisha} socket closed (its ClientServicingThread4 has been stopped) .. has finished!
