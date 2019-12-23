@@ -1,6 +1,6 @@
 # VESIT Attendance Monitoring System (AMS) 2014
 
-Android App that automates the manual paper-based work of taking attendance. Architecture is independent of time table, shifts, etc hence would be applicable for any university.
+Android App automating manual paper-based work of taking attendance for my Undergrad University. Architecture is independent of time table, shifts, etc therefore would be applicable for any university.
 
 ## AMS Server Admin Panel
 
